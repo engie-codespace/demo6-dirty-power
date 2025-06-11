@@ -16,13 +16,13 @@ const Hero: React.FC = () => {
             <div className="flex flex-wrap gap-4">
               <Link 
                 to="/energy-types" 
-                className="inline-block bg-white text-primary font-medium px-6 py-3 rounded-md hover:bg-gray-100 transition-colors"
+                className="inline-block bg-sky-500 text-white font-medium px-6 py-3 rounded-md hover:bg-sky-600 transition-colors"
               >
                 Discover our energy sources
               </Link>
               <Link 
                 to="/offers" 
-                className="inline-block bg-accent text-white font-medium px-6 py-3 rounded-md hover:bg-yellow-500 transition-colors"
+                className="inline-block bg-sky-500 text-white font-medium px-6 py-3 rounded-md hover:bg-sky-600 transition-colors"
               >
                 View our offers
               </Link>
