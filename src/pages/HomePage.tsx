@@ -18,6 +18,30 @@ const HomePage: React.FC = () => {
             className="h-80 w-80 rounded-full object-cover bg-white shadow mb-4"
             style={{ border: '2px solid #15803d' }}
           />
+          <div className="w-full mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                <h3 className="text-lg font-bold mb-2 text-primary">Basic Residential Plan</h3>
+                <p className="text-gray-600 mb-4 text-center">Simple and economical electricity contract for individuals.</p>
+                <Link to="/offers" className="text-accent font-medium hover:underline">Learn more</Link>
+              </div>
+              <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                <h3 className="text-lg font-bold mb-2 text-primary">Comfort Residential Plan</h3>
+                <p className="text-gray-600 mb-4 text-center">Electricity contract with additional services for households.</p>
+                <Link to="/offers" className="text-accent font-medium hover:underline">Learn more</Link>
+              </div>
+              <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                <h3 className="text-lg font-bold mb-2 text-primary">Business Flex Plan</h3>
+                <p className="text-gray-600 mb-4 text-center">Flexible contract for small and medium-sized businesses.</p>
+                <Link to="/offers" className="text-accent font-medium hover:underline">Learn more</Link>
+              </div>
+              <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
+                <h3 className="text-lg font-bold mb-2 text-primary">Business Premium Plan</h3>
+                <p className="text-gray-600 mb-4 text-center">Premium energy contract with dedicated support for businesses.</p>
+                <Link to="/offers" className="text-accent font-medium hover:underline">Learn more</Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       
