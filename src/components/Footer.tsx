@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               className="h-10 w-10 mb-3 rounded-full object-cover bg-white"
               style={{ border: '2px solid #fff' }}
             />
-            <h3 className="text-lg font-semibold mb-4">DirtyPower</h3>
+            <h3 className="text-lg font-semibold mb-4">CleanPower</h3>
             <p className="text-sm text-gray-300">
               Your trusted energy provider since 1995. We offer energy solutions tailored to all your needs.
             </p>
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
             <address className="not-italic text-sm text-gray-300">
               <p>123 Energy Avenue</p>
               <p>London, UK</p>
-              <p className="mt-2">Email: contact@dirtypower.com</p>
+              <p className="mt-2">Email: contact@cleanpower.com</p>
               <p>Phone: +44 123 456 789</p>
             </address>
           </div>
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         
         <div className="mt-12 border-t border-gray-600 pt-8">
           <p className="text-sm text-gray-300 text-center">
-            &copy; {new Date().getFullYear()} DirtyPower. All rights reserved.
+            &copy; {new Date().getFullYear()} CleanPower. All rights reserved.
           </p>
         </div>
       </div>

@@ -221,8 +221,8 @@ const ContactPage: React.FC = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-medium">Email</h3>
                     <p className="mt-2 text-gray-600">
-                      Contact: contact@dirtypower.com<br />
-                      Support: support@dirtypower.com
+                      Contact: contact@cleanpower.com<br />
+                      Support: support@cleanpower.com
                     </p>
                   </div>
                 </div>
