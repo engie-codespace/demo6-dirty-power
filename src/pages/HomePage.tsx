@@ -157,7 +157,6 @@ const HomePage: React.FC = () => {
               Discover testimonials from our satisfied customers
             </p>
           </div>
-          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
@@ -168,13 +167,12 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "The customer service is really excellent. I always get quick responses to my questions and the rates are very competitive."
+                "The customer service is really excellent. I always get quick responses to my questions and the rates are very competitive. I love knowing my energy comes from clean, renewable sources!"
               </p>
               <div className="mt-4 flex text-yellow-500">
                 <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
               </div>
             </div>
-            
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-gray-300 mr-4"></div>
@@ -184,13 +182,12 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Thanks to personalized energy consultation, we've reduced our electricity bill by 15%. A reliable partner for our business."
+                "Thanks to personalized energy consultation, we've reduced our electricity bill by 15%. It's great to support a company that prioritizes green power and sustainability. A reliable partner for our business."
               </p>
               <div className="mt-4 flex text-yellow-500">
                 <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
               </div>
             </div>
-            
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <div className="h-12 w-12 rounded-full bg-gray-300 mr-4"></div>
@@ -200,7 +197,7 @@ const HomePage: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "The transition to CleanPower was simple and hassle-free. The prices are transparent and I've never had any surprises on my bill."
+                "The transition to CleanPower was simple and hassle-free. The prices are transparent and I've never had any surprises on my bill. I feel good knowing my home is powered by clean energy!"
               </p>
               <div className="mt-4 flex text-yellow-500">
                 <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
