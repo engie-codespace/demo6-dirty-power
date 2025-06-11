@@ -8,11 +8,10 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Trusted energy provider for residential and business customers
+              Sustainable Energy you can trust
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-200">
-              We offer reliable energy solutions with transparent rates
-              and exceptional customer service for over 25 years.
+              Our mission is to create a cleaner world by making renewable energy the default choice for everyone, everywhere.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link 

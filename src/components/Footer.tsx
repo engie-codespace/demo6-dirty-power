@@ -7,6 +7,12 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <div>
+            <img
+              src={process.env.PUBLIC_URL + '/new-logo.jpeg'}
+              alt="Green Power Energy logo"
+              className="h-10 w-10 mb-3 rounded-full object-cover bg-white"
+              style={{ border: '2px solid #fff' }}
+            />
             <h3 className="text-lg font-semibold mb-4">DirtyPower</h3>
             <p className="text-sm text-gray-300">
               Your trusted energy provider since 1995. We offer energy solutions tailored to all your needs.

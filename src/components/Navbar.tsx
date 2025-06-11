@@ -14,6 +14,12 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
+              <img
+                src="/new-logo.jpeg"
+                alt="Green Power Energy logo"
+                className="h-10 w-10 mr-2 rounded-full object-cover bg-white shadow"
+                style={{ border: '2px solid #fff' }}
+              />
               <span className="text-white text-xl font-bold">Green Power Energy</span>
             </Link>
           </div>
