@@ -8,17 +8,24 @@ const HomePage: React.FC = () => {
       <Hero />
       
       {/* Wind Turbine Section */}
-      <section className="py-12 bg-white">
+      <div className="hidden md:flex items-center justify-center py-12 bg-white">
+        {/* Logo removed from here */}
+      </div>
+      
+      {/* Our Offers Section */}
+      <section className="py-6 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-2">
+            <h2 className="text-3xl font-bold text-dark">Our Offers</h2>
+            <p className="mt-2 text-lg text-gray-600 max-w-3xl mx-auto">
+              Explore our range of flexible and affordable energy plans for homes and businesses.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="py-2 bg-white">
         <div className="max-w-2xl mx-auto flex flex-col items-center">
-          <h2 className="text-2xl font-bold mb-4 text-dark">Interactive Windmill</h2>
-          <p className="mb-6 text-gray-600 text-center">Please find our offers!</p>
-          <img
-            src={process.env.PUBLIC_URL + '/new-logo.jpeg'}
-            alt="Green Power Energy logo"
-            className="h-80 w-80 rounded-full object-cover bg-white shadow mb-4"
-            style={{ border: '2px solid #15803d' }}
-          />
-          <div className="w-full mt-8">
+          <div className="w-full mt-0">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
                 <h3 className="text-lg font-bold mb-2 text-primary">Basic Residential Plan</h3>
@@ -44,7 +51,7 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
-      
+            
       {/* Our Services Section */}
       <section className="py-16 bg-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

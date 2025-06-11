@@ -35,6 +35,13 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-white bg-opacity-20 rounded-lg transform -rotate-3"></div>
               <div className="absolute inset-0 bg-white bg-opacity-90 rounded-lg shadow-lg flex items-center justify-center p-8">
                 <div className="text-center">
+                  {/* Windmill logo added here */}
+                  <img
+                    src={process.env.PUBLIC_URL + '/new-logo.jpeg'}
+                    alt="Green Power Energy logo"
+                    className="h-32 w-32 rounded-full object-cover bg-white shadow mb-4 mx-auto"
+                    style={{ border: '2px solid #15803d' }}
+                  />
                   <h3 className="text-2xl font-bold text-primary mb-4">Calculate your savings</h3>
                   <p className="text-gray-600 mb-6">Estimate how much you could save by choosing our energy offers</p>
                   <Link 
