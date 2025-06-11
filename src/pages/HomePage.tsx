@@ -1,11 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
+import FourBladeWindTurbine from '../components/FourBladeWindTurbine';
 
 const HomePage: React.FC = () => {
   return (
     <div>
       <Hero />
+      
+      {/* Wind Turbine Section */}
+      <section className="py-12 bg-white">
+        <div className="max-w-2xl mx-auto flex flex-col items-center">
+          <h2 className="text-2xl font-bold mb-4 text-dark">Éolienne interactive</h2>
+          <p className="mb-6 text-gray-600 text-center">Cliquez sur une pale pour en savoir plus !</p>
+          <FourBladeWindTurbine onBladeClick={(i) => alert(`Pale ${i + 1} cliquée !`)} />
+        </div>
+      </section>
       
       {/* Our Services Section */}
       <section className="py-16 bg-light">
