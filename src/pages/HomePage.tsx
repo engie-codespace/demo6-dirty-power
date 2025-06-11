@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
       
       {/* Our Offers Section */}
       <section className="py-6 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-2">
             <h2 className="text-3xl font-bold text-dark">Our Offers</h2>
             <p className="mt-2 text-lg text-gray-600 max-w-3xl mx-auto">
@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
       <section className="py-2 bg-white">
-        <div className="max-w-2xl mx-auto flex flex-col items-center">
+        <div className="max-w-5xl mx-auto flex flex-col items-center">
           <div className="w-full mt-0">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
