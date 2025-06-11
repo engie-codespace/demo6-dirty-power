@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
-import FourBladeWindTurbine from '../components/FourBladeWindTurbine';
 
 const HomePage: React.FC = () => {
   return (
@@ -13,7 +12,12 @@ const HomePage: React.FC = () => {
         <div className="max-w-2xl mx-auto flex flex-col items-center">
           <h2 className="text-2xl font-bold mb-4 text-dark">Éolienne interactive</h2>
           <p className="mb-6 text-gray-600 text-center">Cliquez sur une pale pour en savoir plus !</p>
-          <FourBladeWindTurbine onBladeClick={(i) => alert(`Pale ${i + 1} cliquée !`)} />
+          <img
+            src={process.env.PUBLIC_URL + '/new-logo.jpeg'}
+            alt="Green Power Energy logo"
+            className="h-40 w-40 rounded-full object-cover bg-white shadow mb-4"
+            style={{ border: '2px solid #15803d' }}
+          />
         </div>
       </section>
       
