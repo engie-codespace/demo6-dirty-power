@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
               <img
                 src={process.env.PUBLIC_URL + '/new-logo.jpeg'}
                 alt="Green Power Energy logo"
-                className="h-10 w-10 mr-2 rounded-full object-cover bg-white shadow"
+                className="h-24 w-24 mr-4 rounded-full object-cover bg-white shadow" 
                 style={{ border: '2px solid #fff' }}
               />
               <span className="text-white text-xl font-bold">Green Power Energy</span>

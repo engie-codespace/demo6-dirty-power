@@ -10,12 +10,12 @@ const HomePage: React.FC = () => {
       {/* Wind Turbine Section */}
       <section className="py-12 bg-white">
         <div className="max-w-2xl mx-auto flex flex-col items-center">
-          <h2 className="text-2xl font-bold mb-4 text-dark">Éolienne interactive</h2>
-          <p className="mb-6 text-gray-600 text-center">Cliquez sur une pale pour en savoir plus !</p>
+          <h2 className="text-2xl font-bold mb-4 text-dark">Interactive Windmill</h2>
+          <p className="mb-6 text-gray-600 text-center">Please find our offers!</p>
           <img
             src={process.env.PUBLIC_URL + '/new-logo.jpeg'}
             alt="Green Power Energy logo"
-            className="h-40 w-40 rounded-full object-cover bg-white shadow mb-4"
+            className="h-80 w-80 rounded-full object-cover bg-white shadow mb-4"
             style={{ border: '2px solid #15803d' }}
           />
         </div>
