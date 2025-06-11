@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/demo6-dirty-power/static/css/main.96eca218.css",
-    "main.js": "/demo6-dirty-power/static/js/main.b65e006a.js",
+    "main.js": "/demo6-dirty-power/static/js/main.ec5e2486.js",
     "static/js/453.14b02d4a.chunk.js": "/demo6-dirty-power/static/js/453.14b02d4a.chunk.js",
     "index.html": "/demo6-dirty-power/index.html",
     "main.96eca218.css.map": "/demo6-dirty-power/static/css/main.96eca218.css.map",
-    "main.b65e006a.js.map": "/demo6-dirty-power/static/js/main.b65e006a.js.map",
+    "main.ec5e2486.js.map": "/demo6-dirty-power/static/js/main.ec5e2486.js.map",
     "453.14b02d4a.chunk.js.map": "/demo6-dirty-power/static/js/453.14b02d4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96eca218.css",
-    "static/js/main.b65e006a.js"
+    "static/js/main.ec5e2486.js"
   ]
 }
